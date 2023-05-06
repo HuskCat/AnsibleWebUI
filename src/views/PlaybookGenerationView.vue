@@ -1,15 +1,15 @@
 <script>
 export default {
-  name: "playbookOption",
+  name: 'playbookOption',
   props: [],
   data() {
     return {
-      playbookName: "Playbook Name",
-      targetHost: "Hosts",
-      taskName: "Task Name",
-      moduleName: "Module Name",
-      save: "已儲存",
-      run: "正在執行劇本"
+      playbookName: 'Playbook Name',
+      targetHost: 'Hosts',
+      taskName: 'Task Name',
+      moduleName: 'Module Name',
+      save: '已儲存',
+      run: '正在執行劇本'
     }
   },
   methods: {

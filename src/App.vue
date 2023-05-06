@@ -9,10 +9,10 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="wrapper">
       <h1 class="green">AnsibleWeb</h1>
       <h3>
-      Powered by
-      <a href="http://huskcat.com/members/suzukinanami" target="_blank" rel="noopener">友人Ｓ</a> from
-      <a href="http://huskcat.com" target="_blank" rel="noopener">Huskcat</a>.
-    </h3>
+        Powered by
+        <a href="http://huskcat.com/members/suzukinanami" target="_blank" rel="noopener">友人Ｓ</a>
+        from <a href="http://huskcat.com" target="_blank" rel="noopener">Huskcat</a>.
+      </h3>
 
       <nav>
         <RouterLink to="/">How to use</RouterLink>
