@@ -47,16 +47,12 @@ export default {
     <!-- TODO: New tasks here--></div>
     <button class="addButton" type="button" @click="addTask">New tasks</button></div>
     <div class="playbook-generation-preview">
-      <pre v-highlightjs="sourcecode">
-      <code class="yaml">
----
+      <pre v-highlightjs="sourcecode"><code class="yaml">---
 - name: {{ playbookName }}
-  hosts: {{ targetHost }}
+  hosts: {{ targetHost }} <!-- TODO: Show vars here-->
   tasks:
     - name: {{ taskName }}
-      {{ moduleName }}:
-      </code>
-    </pre>
+      {{ moduleName }}:<!-- TODO: Show tasks here--></code></pre>
     </div>
     <div class="playbook-generation-buttons">
       <button type="button" @click="savePlaybook()">Save</button>
@@ -86,6 +82,7 @@ export default {
   }
   .playbook-generation-preview {
     text-align: start;
+    margin: 5px 0px;
   }
   button{
     width:50%;
