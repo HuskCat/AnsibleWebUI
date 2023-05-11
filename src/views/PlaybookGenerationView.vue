@@ -13,6 +13,12 @@ export default {
     }
   },
   methods: {
+    addVars() {
+      // TODO: add variable block
+    },
+    addTask() {
+      // TODO: add task block
+    },
     savePlaybook() {
       // TODO: save codeblock to file
       return alert(this.save)
