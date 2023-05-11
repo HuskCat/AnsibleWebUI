@@ -8,7 +8,7 @@ import router from './router'
 
 // import hljs from 'highlight.js'
 import VueHighlightJS from 'vue3-highlightjs'
-import 'vue3-highlightjs/styles/solarized-dark.css'
+import 'vue3-highlightjs/styles/rainbow.css'
 
 import Dropdown from 'vue-simple-search-dropdown';
 
